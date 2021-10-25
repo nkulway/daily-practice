@@ -34,3 +34,17 @@ function vowel(word){
     }
     return count;
     }
+
+
+    // write a function that
+    //  determins weather or not a string is a palindorme
+
+    function palindrome(str) {
+      if (str === str.split("").reverse().join("")){
+      return true
+      } else{
+      return false
+      }
+    }
+    
+    console.log(palindrome("deed"));
